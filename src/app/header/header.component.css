@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #fff;
+    color: #ff7722;
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 20px;
+  }
+  
+  .logo p {
+    margin: 0;
+    font-size: larger;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .main-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main-menu ul li {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .main-menu ul li a {
+    color: #ff7722;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+  }
+  
+  .sub-menu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    z-index: 1;
+    width: 250px;
+  }
+  
+  .sub-menu li {
+    display: block;
+  }
+  .sub-menu li  a{
+    font: 1em Arial, sans-serif;
+    }
+
+  
+  .main-menu ul li:hover .sub-menu {
+    display: block;
+  }
+  
