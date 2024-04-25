@@ -61,4 +61,19 @@ body {
   .main-menu ul li:hover .sub-menu {
     display: block;
   }
-  
+  @media screen and (max-width: 768px) {
+    .header-content {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .main-menu ul {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .main-menu ul li {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  }
